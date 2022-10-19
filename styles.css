@@ -1,0 +1,80 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  overflow: hidden;
+}
+
+.wrapper{
+width: 100vw;
+height: 100vh;
+background-color: #191c32;
+color: white;
+}
+.menu{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.menu li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2mm;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+.menu .active{
+    color: aqua;
+}
+.brand{
+    margin-top: -7px;
+}
+
+.menu.a:hover{
+    color: #191c32;
+    background-color: aqua;
+    transition: ease-in .5;
+
+}
+.main{
+    margin: 0 auto;
+    width: 80 vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+h1{
+    font-size: 3cm;
+}
+span{
+    color: aqua;
+}
+.downloadcv{
+    padding: 10px 20px;
+    background-color: aqua;
+    border:none;
+    border-radius: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    box-shadow: 1px 3px 11px -5px rgba (102, 231, 200, 69)
+}
+.downloadcv:hover{
+    background-color: white;
+    box-shadow: none;
+}
+.main img{
+    width: 350px;
+    border: 7px solid aqua;
+    border-radius: 50%;
+}
